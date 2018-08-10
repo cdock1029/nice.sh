@@ -1,8 +1,18 @@
+const dotenv = require('dotenv')
+dotenv.config()
+
 module.exports = {
   siteMetadata: {
     title: 'Nice.sh',
   },
   plugins: [
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `${process.env.CONTENTFUL_SPACE_ID}`,
+        accessToken: `${process.env.CONTENTFUL_ACCESS_TOKEN}`,
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
