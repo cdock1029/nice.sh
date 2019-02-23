@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "prettier": "1.16.4",
-    "serve": "9.4.2"
+    "serve": "9.6.0"
   },
   "repository": {
     "type": "git",
