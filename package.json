@@ -10,8 +10,8 @@
     "gatsby-plugin-offline": "next",
     "gatsby-plugin-react-helmet": "next",
     "gatsby-source-contentful": "2.0.32",
-    "react": "16.8.3",
-    "react-dom": "16.8.3",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
     "react-helmet": "5.2.0"
   },
   "keywords": [
